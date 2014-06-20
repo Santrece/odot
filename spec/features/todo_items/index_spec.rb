@@ -3,9 +3,6 @@ require 'spec_helper'
 describe "Viewing todo items" do
   let!(:todo_list) { TodoList.create(title: "Groceries", description: "Grocery list.")}
 
-
- 
-
   it "displays the title of the todo list" do
     within("hi") do
       expect(page).to have_content(todo_list.title)
