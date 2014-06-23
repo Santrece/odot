@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 div.todo_list {
-  border: 1px solid #eee;
+  border: 1px solid purple;
   border-radius: 4px;
   margin: 1em 0 1em 0;
   padding: 2em;
@@ -15,10 +15,18 @@ div.todo_list {
     fonts-size: 0.8em;
     clear: both;
 
+
     li {
+
     margin: 0 1em 0 0;
     padding: 0;
     float: left;
     }
+    
   }
+
 }
+
+h1 {color: green; }
+
+h2{ color: green;}
