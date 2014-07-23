@@ -64,4 +64,6 @@ div.nav ul li a:hover {
   background: #aaa;
 }
 
-li {color: blue;}
+li {color: blue;
+  list-style: none;
+}
